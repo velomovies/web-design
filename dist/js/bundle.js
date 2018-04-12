@@ -3,13 +3,23 @@
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 var filter = document.querySelector('.filter');
+var filterOptions = document.querySelector('.filter-text');
+var nextButton = document.querySelector('#next');
 var filterText = document.querySelector('h2');
 var filterButton = document.querySelector('#filterbutton');
 var showAllButton = document.querySelector('#showallbutton');
 var filterGallery = document.querySelector('.gallery');
+var textInput = document.querySelector('#textInput');
+var li = document.querySelectorAll('li');
+var h1 = document.querySelector('h1');
+var p = document.createElement('p');
+var pText = document.createTextNode('We kunnen je helpen om al deze foto\'s te bekijken.');
+
+p.appendChild(pText);
 
 var scrollPosition = window.scrollY;
 var firstTime = true;
+var page = 0;
 
 function activeFilter() {
   firstTime = false;
@@ -17,7 +27,7 @@ function activeFilter() {
   filter.removeEventListener('click', activeFilter);
   setTimeout(function () {
     window.addEventListener('scroll', checkScrollPositionSecond);
-  }, 1000);
+  }, 2000);
 }
 
 function deactiveFilter() {
@@ -49,14 +59,49 @@ function checkScrollPosition() {
 
   if (scrollPosition > 4000 && firstTime) {
     window.removeEventListener('scroll', checkScrollPosition);
+    filterOptions.appendChild(p);
     activeFilter();
+  }
+}
+
+function nextFilter() {
+  li.forEach(function (element) {
+    element.classList.remove('active');
+  });
+
+  if (page === 0) {
+    li[page + 1].classList.add('active');
+    textInput.placeholder = 'Choose your favorite color';
+    page++;
+  } else if (page === 1) {
+    li[page + 1].classList.add('active');
+    textInput.placeholder = 'Which size do you like';
+    nextButton.value = 'Filter';
+    page++;
+  } else {
+    page = 0;
+    li[page].classList.add('active');
+    textInput.placeholder = 'Filter on topics';
+    nextButton.value = 'Next';
+    filterPhotos();
+  }
+}
+
+function scrollPosisitionRotate() {
+  scrollPosition = window.scrollY;
+  if (scrollPosition > 100) {
+    h1.classList.add('rotated');
+  } else {
+    h1.classList.remove('rotated');
   }
 }
 
 filter.addEventListener('click', activeFilter);
 filterButton.addEventListener('click', filterPhotos);
 showAllButton.addEventListener('click', showAllPhotos);
+nextButton.addEventListener('click', nextFilter);
 
+window.addEventListener('scroll', scrollPosisitionRotate);
 window.addEventListener('scroll', checkScrollPosition);
 var gallery = document.querySelector('.gallery');
 var overlay = document.querySelector('.overlay');
