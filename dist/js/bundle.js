@@ -6,7 +6,6 @@ var filter = document.querySelector('.filter');
 var filterOptions = document.querySelector('.filter-text');
 var nextButton = document.querySelector('#next');
 var filterText = document.querySelector('h2');
-var filterButton = document.querySelector('#filterbutton');
 var showAllButton = document.querySelector('#showallbutton');
 var filterGallery = document.querySelector('.gallery');
 var textInput = document.querySelector('#textInput');
@@ -97,7 +96,6 @@ function scrollPosisitionRotate() {
 }
 
 filter.addEventListener('click', activeFilter);
-filterButton.addEventListener('click', filterPhotos);
 showAllButton.addEventListener('click', showAllPhotos);
 nextButton.addEventListener('click', nextFilter);
 
