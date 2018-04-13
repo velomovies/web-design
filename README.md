@@ -23,19 +23,25 @@ Thats done with css where I made sure all elements had the same `span`.
 
 ## Principles
 The principles I used where:
+
 06. **One primary action per screen**
+
 There is always one primary thing you can do in each state. 
   - Show photos at the home screen
   - Filter the photos
   - Close the photo when opened
 
 11. **Strong visual hierarchies work best**
+
 A hierarchy is one of the most important things in design. In every design you have to check this.
 
 14. **Progressive disclosure**
+
 The app uses a little `progressive disclosure`. In the filter you can choose different filter types. You can see the filters as next step but it is not already on one page.
 
 15. **A crucial moment: the zero state**
+
+The app uses a `zero state`. If the user sees the page for the first time it will show the user the filter options when scrolled far down. 
 
 
 ## Features
