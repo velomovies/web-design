@@ -1,0 +1,52 @@
+/* base styles */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+img {
+  max-width: 100%; }
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+  fieldset legend {
+    padding: 0; }
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translatey(1.5em); }
+  to {
+    opacity: 1;
+    transform: translatey(0); } }
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  color: #333333; }
+  body > nav, body > header, body > footer, body > section, body > main {
+    width: 95%;
+    margin: 0 auto; }
+
+/* component styles */
+h1 {
+  font-size: 9vw; }
+
+.hidden {
+  position: absolute;
+  left: -999px;
+  pointer-events: none;
+  opacity: 0; }
