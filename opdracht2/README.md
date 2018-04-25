@@ -1,6 +1,6 @@
 # CMD Webdev website
 
-For this assignment I made an redisign of the cmd website from [CMD-minro](https://cmda.github.io/minor-everything-web/).
+For this assignment I made an redisign of the cmd website from [CMD-minor](https://cmda.github.io/minor-everything-web/). Using two people as persons who use my website.
 
 ![Preview](dist/images/preview.png)
 > Try the
@@ -10,8 +10,12 @@ For this assignment I made an redisign of the cmd website from [CMD-minro](https
 
 This app is about...
 
-## Principles
-The principles I used where:
+## My people
+
+**Larissa**
+
+**Student**
+The second person I made the website for is a student. The student is from another 
 
 ## Features
 
@@ -19,6 +23,11 @@ The principles I used where:
 > Preview
 
 - things
+
+## Tests
+
+The scenario where I tested on:
+As student you are looking for a minor. You want to know where this minor is about. Which courses are given and how to enroll for this minor.
 
 ## To Do
 
