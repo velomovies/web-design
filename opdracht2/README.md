@@ -12,6 +12,7 @@ For this assignment I made an redisign of the cmd website from [CMD-minor](https
   * [Background](#background)
   * [Features](#features)
   * [Principles](#principles)
+  * [Content](#content)
   * [My people](#my-people)
   * [Tests](#tests)
   * [To Do](#to-do)
@@ -91,34 +92,34 @@ I tried to get a really strong hierarchy that enables people to see what is impo
 
 Content on whole site
 
-**one page on new website**
+**One page on new website**
 
 - Introductie
   - tekst
 - Aanmelden
   - tekst
 
-**one page on new website**
+**One page on new website**
 
 - Iets voor jou
   - tekst
 - Toelatingseisen
   - tekst
 
-**one page on new website**
+**One page on new website**
 
 - Werkwijze
   - tekst
 - Lesprogramma
   - lijst (10 items) / tekst
 
-**one page on new website**
+**One link on new website**
 
 - Studentenwerk
   - Link (naar github)
 - ~~Impressie foto's~~
 
-**one page on new website**
+**One page on new website**
 
 - Testimonials
   - tekst
