@@ -87,6 +87,47 @@ Every link and every heading and space is the same on the whole website.
 
 I tried to get a really strong hierarchy that enables people to see what is important. Making things really big to a little smaller it gets a great hierarchy.
 
+## Content
+
+Content on whole site
+
+**one page on new website**
+
+- Introductie
+  - tekst
+- Aanmelden
+  - tekst
+
+**one page on new website**
+
+- Iets voor jou
+  - tekst
+- Toelatingseisen
+  - tekst
+
+**one page on new website**
+
+- Werkwijze
+  - tekst
+- Lesprogramma
+  - lijst (10 items) / tekst
+
+**one page on new website**
+
+- Studentenwerk
+  - Link (naar github)
+- ~~Impressie foto's~~
+
+**one page on new website**
+
+- Testimonials
+  - tekst
+- Questback
+  -lijst (19 items) / tekst
+
+![Cardsorting](dist/images/cardsorting.jpg)
+> Cardsorting the website on the basis of the content
+
 ## My people
 
 **Larissa**
