@@ -113,7 +113,7 @@ This way you can manipulate what is said about the page she is on.
 
 There where a few minor problems she ran into. What stand out to her is that the main content had an heading 4. This is actually to far in the `DOM`. I have to make `h2` to make it easier to find her way.
 
-![test video](dist/images/test.gif)(dist/images/test.mp4)
+![test video](dist/images/test.gif)
 > Doing the test with Larissa
 
 Because of the headings she was a bit lost and in confusion of where to be. When Larissa is making a website herself she is always in dubio where to put different headings. In her head it is logic, but for someone else it isn't. That is the same problem I ran into. In the end she finally found it and she could read about all the courses
@@ -128,7 +128,7 @@ When Larissa knows where to be, she can be even faster than people that can see 
 
 * Making sure all test results are implemented in the website.
   * Working menu for screenreaders
-  * Higher hierchy headings for important content
+  * Higher hiarchy headings for important content
   * Focus on the page on keyboard input
 
 ## License
