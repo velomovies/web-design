@@ -6,17 +6,17 @@ For this assignment I made an redisign of the cmd website from [CMD-minor](https
 > Try the
 > [**prototype**](https://velomovies.github.io/web-design/opdracht2/dist/).
 
-
 # Table of contents
-- [CMD Webdev website](#cmd-webdev-website)
-  * [Background](#background)
-  * [Features](#features)
-  * [Principles](#principles)
-  * [Content](#content)
-  * [My people](#my-people)
-  * [Tests](#tests)
-  * [To Do](#to-do)
-  * [License](#license)
+- [Background](#background)
+- [Features](#features)
+- [Principles](#principles)
+- [Content](#content)
+- [My people](#my-people)
+- [The user scenarios](#the-user-scenarios)
+- [Inclusive Design](#inclusive-design)
+- [Tests](#tests)
+- [To Do](#to-do)
+- [License](#license)
 
 ## Background
 
@@ -138,6 +138,24 @@ Larissa is a blind person. She can see only the difference between dark and ligh
 **Student**
 
 The second person I made the website for is a student. The student is from another study and doesn't know what the minor is about. Also he doesn't know where the study is about. All the descriptions of the courses are vague to him. He wants to know how you can learn more about that certain course.
+
+## The user scenarios
+
+The main thing my people want to do is making sure they learn about the minor and eventually sign up for it. As soon as my people read about a certain subject they have a `'call to action'` to sign up for the minor.
+
+**User scenario for Larissa**
+
+Larissa goes online and 'hears' the website. She can tab trough everything and choose the links she wants to visit. Larissa wants to know more about the classes that are given in the minor. If Larissa thinks it is a fun minor she can immediately choose if she wants to sign up. If she indeed want to sign up she can get the link to sign up.
+
+**User scenario for Student**
+
+The student comes from an other study, that makes him new to web-development. He/She wants to see what the minor is about. The classes that are being given have a good description. Next to that he/she can see which subject there will be explained. When they want to learn something more about a subject there are links to a clear explanation. After they have made a decission if they like it or not the student can immediately sign up for the minor.
+
+## Inclusive Design
+
+By having a clear user scenario you can easily have inclusive design. I added a few things specially for my people. Larissa can't see and she wants to hear the website. So what I have done is making sure everything is tabbable. Next to that it has to work without problems together with a screenreader. 
+
+For the student I made sure he/she can learn in an early state about the minor. I made sure there are links a few websites where you can learn about a certain subject. That makes it easy for the student to know what subject are explained trough the minor. Next to that it can make it easier to follow the whole minor, because not everything will be new to them.
 
 ## Tests
 

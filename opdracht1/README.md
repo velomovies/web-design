@@ -4,7 +4,7 @@ For this assignment I made an photo gallery with photos from [Picsum](https://pi
 
 ![Preview](dist/images/preview.png)
 > Try the
-> [**prototype**](https://velomovies.github.io/web-design/opdracht2/dist/).
+> [**prototype**](https://velomovies.github.io/web-design/opdracht1/dist/).
 
 ## Background
 
