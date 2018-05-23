@@ -61,6 +61,23 @@ body {
   body blockquote p::after {
     content: close-quote; }
 
+.sign-up {
+  background: #FFD000;
+  padding: .5em 1.5em;
+  margin-top: .5em;
+  border-radius: .3em;
+  color: #333333;
+  text-decoration: none;
+  text-align: center;
+  border: .1em solid transparent;
+  display: inline-block; }
+  .sign-up:hover, .sign-up:focus {
+    opacity: .8;
+    border-color: #333333; }
+  .sign-up span {
+    display: block;
+    margin-top: .1em; }
+
 .skip-link {
   position: absolute;
   top: .5em;
@@ -152,6 +169,9 @@ header {
     header {
       min-height: 1em;
       height: 100%; } }
+  header a {
+    color: #333333;
+    text-decoration: none; }
   header h1, header h2 {
     width: 90%;
     margin: 0 auto; }
@@ -225,14 +245,28 @@ header {
 main > article {
   width: 90%;
   margin: 3em auto 0; }
-  main > article div {
+  main > article div, main > article section {
     width: calc(90%/1.5);
-    margin: 2em auto 0;
+    margin: 2em auto 0; }
+    @media (max-width: 40em) {
+      main > article div, main > article section {
+        width: 100%; } }
+  main > article div {
     padding-left: 2em;
     border-left: 1.5em solid #FFD000; }
-    @media (max-width: 40em) {
-      main > article div {
-        width: 100%; } }
+
+.tool {
+  text-align: center;
+  padding: 1em;
+  box-shadow: 0 0.1em 0.8em #00000033; }
+  .tool .sign-up {
+    display: block;
+    margin-left: 12.5%;
+    max-width: 75%; }
+  @media (max-width: 40em) {
+    .tool .sign-up {
+      margin-left: 0;
+      max-width: 100%; } }
 
 .feedback {
   width: 90%;

@@ -1,6 +1,6 @@
 # CMD Webdev website
 
-For this assignment I made an redisign of the cmd website from [CMD-minor](https://cmda.github.io/minor-everything-web/). Using two different people as persons who use my website.
+For this assignment I made a redisign of the cmd website from [CMD-minor](https://cmda.github.io/minor-everything-web/). Using two different people as persons who use my website.
 
 ![Preview](dist/images/preview.png)
 > Try the
@@ -137,7 +137,7 @@ Larissa is a blind person. She can see only the difference between dark and ligh
 
 **Student**
 
-The second person I made the website for is a student. The student is from another study and doesn't know what the minor is about. Also he doesn't know where the study is about. All the descriptions of the courses are vague to him. He wants to know how you can learn more about that certain course.
+The second person I made the website for is a student. The student is from another study and doesn't know what the minor is about. Also he doesn't know where the study is about. All the descriptions of the courses can be vague to him. He wants to know how you can learn more about that certain course.
 
 ## The user scenarios
 
@@ -149,7 +149,12 @@ Larissa goes online and 'hears' the website. She can tab trough everything and c
 
 **User scenario for Student**
 
-The student comes from an other study, that makes him new to web-development. He/She wants to see what the minor is about. The classes that are being given have a good description. Next to that he/she can see which subject there will be explained. When they want to learn something more about a subject there are links to a clear explanation. After they have made a decission if they like it or not the student can immediately sign up for the minor.
+The student comes from an other study, that makes him new to web-development. He/She wants to see what the minor is about. the student orientate him/her self and looks if the minor is something for him/her. When he/she is sure he/she wants to sign-up for the minor that can be done immediately and everywhere the students read about the minor. If the student isn't sure about his/her niveau the stundent can find which niveau is needed for this minor and after that he/she can immediately sign up for the minor.
+
+On the courses page the student can find helping links. The courses that are being given have a good description. Next to that he/she can see which subject there will be explained. When they want to learn something more about a subject there are links to a clear explanation. After they have made a decission if they like it or not the student can immediately sign up for the minor.
+
+![Preview 3](dist/images/preview3.png)
+> The way a student can check his/her niveau. If the niveau is good the student can immediately sign-up for the minor
 
 ## Inclusive Design
 
